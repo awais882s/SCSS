@@ -19,26 +19,55 @@
 $primaryColor: #00b4d8;
 $secondaryColor: #f6bd60;
 $lightColor: #b9fbc0;
+$headerHeight: 40px;
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
-header {
+header#navbar {
   background-color: $primaryColor;
+  height: $headerHeight;
   nav {
     ul {
       list-style-type: none;
       padding: 0;
       margin: 0;
+      text-align: center;
       li {
         display: inline-block;
         a {
           color: $lightColor;
+          line-height: $headerHeight;
+          text-decoration: none;
+          display: inline-block;
+          padding: 0 20px;
+          &:hover {
+            background-color: $secondaryColor;
+            color: $primaryColor;
+          }
         }
       }
     }
+  }
+}
+main {
+  background-color: $secondaryColor;
+  color: $lightColor;
+  flex: 1 0 auto;
+}
+footer {
+  background-color: $primaryColor;
+  padding: 10px 4px;
+  p {
+    color: $lightColor;
+    text-align: center;
   }
 }
