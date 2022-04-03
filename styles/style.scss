@@ -1,0 +1,15 @@
+$primaryColor:aqua;
+$lightColor:#000;
+$primaryFont:arial;
+body{
+    background-color: $primaryColor;
+    color: $lightColor;
+}
+.section{
+    padding: 24px 16px;
+    color: $primaryColor;
+    background-color: $lightColor;
+}
+h1,h2,h3{
+    font-family: $primaryFont;
+}
