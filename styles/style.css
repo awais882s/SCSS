@@ -5,11 +5,12 @@ body {
 
 .section {
   padding: 24px 16px;
-  color: aqua;
+  color: red;
   background-color: #000;
 }
 
-h1, h2 {
+h1, h4 {
   font-family: arial;
+  color: red;
 }
 /*# sourceMappingURL=style.css.map */
