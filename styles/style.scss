@@ -1,20 +1,44 @@
-$primaryColor:aqua;
-$lightColor:#000;
-$primaryFont:arial;
-body{
-    background-color: $primaryColor;
-    color: $lightColor;
+// $primaryColor:aqua;
+// $lightColor:#000;
+// $primaryFont:arial;
+// body{
+//     background-color: $primaryColor;
+//     color: $lightColor;
+// }
+// .section{
+//     $primaryColor:red !global;
+//     padding: 24px 16px;
+//     color: $primaryColor;
+//     background-color: $lightColor;
+// }
+
+// h1,h4{
+//     font-family: $primaryFont;
+//     color: $primaryColor;
+// }
+$primaryColor: #00b4d8;
+$secondaryColor: #f6bd60;
+$lightColor: #b9fbc0;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.section{
-    $primaryColor:red !global;
-    padding: 24px 16px;
-    color: $primaryColor;
-    background-color: $lightColor;
-}
 
-
-
-h1,h4{
-    font-family: $primaryFont;
-    color: $primaryColor;
+header {
+  background-color: $primaryColor;
+  nav {
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      li {
+        display: inline-block;
+        a {
+          color: $lightColor;
+        }
+      }
+    }
+  }
 }
