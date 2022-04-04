@@ -1,3 +1,6 @@
+@import "./colors";
+@import "./reset";
+@import "./mixin";
 // $primaryColor:aqua;
 // $lightColor:#000;
 // $primaryFont:arial;
@@ -16,16 +19,9 @@
 //     font-family: $primaryFont;
 //     color: $primaryColor;
 // }
-$primaryColor: #00b4d8;
-$secondaryColor: #f6bd60;
-$lightColor: #b9fbc0;
+
 $headerHeight: 40px;
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body {
   min-height: 100vh;
   display: flex;

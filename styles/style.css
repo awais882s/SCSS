@@ -1,8 +1,14 @@
 * {
-  margin: 0;
-  padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -17,7 +23,7 @@ body {
 }
 
 header#navbar {
-  background-color: #00b4d8;
+  background-color: #3f37c9;
   height: 40px;
 }
 
@@ -42,7 +48,7 @@ header#navbar nav ul li a {
 
 header#navbar nav ul li a:hover {
   background-color: #f6bd60;
-  color: #00b4d8;
+  color: #3f37c9;
 }
 
 main {
@@ -54,7 +60,7 @@ main {
 }
 
 footer {
-  background-color: #00b4d8;
+  background-color: #3f37c9;
   padding: 10px 4px;
 }
 
