@@ -58,10 +58,13 @@ main {
   background-color: $secondaryColor;
   color: $lightColor;
   flex: 1 0 auto;
-  h2{
-    @include  important-text ;
+  h2 {
+    @include important-text;
   }
- 
+  p.important-text {
+    @include important-text;
+    border: 2px solid black;
+  }
 }
 footer {
   background-color: $primaryColor;

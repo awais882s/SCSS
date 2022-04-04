@@ -66,6 +66,14 @@ main h2 {
   border: 1px solid blue;
 }
 
+main p.important-text {
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid blue;
+  border: 2px solid black;
+}
+
 footer {
   background-color: #3f37c9;
   padding: 10px 4px;
