@@ -1,6 +1,5 @@
 @import "./colors";
 @import "./reset";
-@import "./mixin";
 // $primaryColor:aqua;
 // $lightColor:#000;
 // $primaryFont:arial;
@@ -58,6 +57,9 @@ main {
   background-color: $secondaryColor;
   color: $lightColor;
   flex: 1 0 auto;
+  h2{
+    @include important-text;
+  }
 }
 footer {
   background-color: $primaryColor;
