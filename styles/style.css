@@ -83,4 +83,18 @@ footer p {
   color: #b9fbc0;
   text-align: center;
 }
+
+.button-basic, .css {
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  color: #3f37c9;
+  background-color: black;
+}
+
+.css {
+  background-color: chocolate;
+}
 /*# sourceMappingURL=style.css.map */

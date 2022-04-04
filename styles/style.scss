@@ -74,3 +74,17 @@ footer {
     text-align: center;
   }
 }
+.button-basic {
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  color: $primaryColor;
+  background-color: black
+
+}
+.css{
+  @extend .button-basic;
+  background-color: chocolate;
+}
