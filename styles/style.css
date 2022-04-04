@@ -59,6 +59,13 @@ main {
           flex: 1 0 auto;
 }
 
+main h2 {
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid blue;
+}
+
 footer {
   background-color: #3f37c9;
   padding: 10px 4px;
