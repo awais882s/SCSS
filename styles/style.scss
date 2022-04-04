@@ -1,6 +1,7 @@
 @import "./colors";
 @import "./reset";
 @import "./mixin";
+@import "./bootstrap";
 // $primaryColor:aqua;
 // $lightColor:#000;
 // $primaryFont:arial;
@@ -55,7 +56,7 @@ header#navbar {
   }
 }
 main {
-  background-color: $secondaryColor;
+  background-color: $lightColor;
   color: $lightColor;
   flex: 1 0 auto;
   h2 {
